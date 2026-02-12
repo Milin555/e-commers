@@ -4,7 +4,10 @@
   import  NewArrivals  from './components/Sections/NewArrivals'
   import { Category } from './components/Sections/Categories/Category'
   import content from './data/Content.json'
+  import Footer from './footer/Footer'
 
+
+ 
   export const Shope = () => {
     return (
       <>
@@ -12,7 +15,7 @@
       <HeroSection />
       <NewArrivals />
       {content?.categories && content?.categories?.map((items,index)=><Category key={items?.title+index}{...items}/>)}
-
+      <Footer content={content?.footer} />
       </>
     )
   }
