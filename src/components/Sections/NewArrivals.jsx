@@ -9,7 +9,7 @@ import Joggers from "../../assets/img/joggers.jpg"
 import Kurti from "../../assets/img/kurtis.jpg"
 import Carousel from "react-multi-carousel"
 import { responsive } from "../../utils/Seaction.constans"
-import './NewArrivals.css';
+
 
 
 
@@ -51,7 +51,7 @@ const NewArrivals = () => {
            showDots={false}
            infinite={false}
              partialVisible={false}
-            itemClass={'reactcusom'}
+            
              className='px-4 md:px-8'
           >
 

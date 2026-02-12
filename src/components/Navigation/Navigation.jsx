@@ -36,7 +36,7 @@ export const Navigation = () => {
         </div>
       </div>
       <div className='flex flex-wrap items-center gap-5'>
-        <ul className='flex items-center gap-7'>
+        <ul className='flex items-center gap-4'>
               <li><button ><Wishlist /></button></li>
               <li><button ><AccountIcon /></button></li>
               <li><button ><CartIcon /></button></li>
