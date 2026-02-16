@@ -1,5 +1,5 @@
 {
-    "categories":[
+    "pages":[
    
                 {
                     "title":"Categories For Women",
@@ -116,5 +116,133 @@
             }
         ],
         "copyright":"Copyright © 2026 ShopEase"
-    }   
+    },
+     "categories": [
+        {
+          "id": 1,
+          "name": "Men",
+          "code": "MEN",
+          "path":"/men",
+          "description":"Men's Clothing",
+          "types": [
+            {
+              "id": 1,
+              "name": "Jeans",
+              "description": "Men's jeans"
+            },
+            {
+              "id": 2,
+              "name": "Shirts",
+              "description": "Men's shirts"
+            },
+            {
+              "id": 3,
+              "name": "Shorts",
+              "description": "Men's shorts"
+            },
+            {
+              "id": 4,
+              "name": "T-shirts",
+              "description": "Men's t-shirts"
+            },
+            {
+              "id": 14,
+              "name": "Hoodie's",
+              "description": "Men's Hoodie"
+            }
+          ],
+          "meta_data":{
+            "colors":["Black", "White", "Purple", "Gray", "Blue","Red","Orange","Navy","Grey","Yellow","Pink","Green"],
+            "sizes":["S","M","L","XL","XXL"]
+          }
+        },
+        {
+          "id": 2,
+          "name": "Women",
+          "code": "WOMEN",
+          "path":"/women",
+          "description":"Women's Clothing",
+          "types": [
+            {
+              "type_id": 5,
+              "code":"DRESSES",
+              "name": "Dresses"
+            },
+            {
+              "type_id": 6,
+              "code":"CROPTOP",
+              "name": "Crop Top"
+            },
+            {
+              "type_id": 7,
+              "code":"SHORTS",
+              "name": "Shorts"
+            },
+            {
+              "type_id": 8,
+              "code":"JEANS",
+              "name": "Jeans"
+            },
+            {
+              "type_id": 9,
+              "code":"TSHIRTS",
+              "name": "T-shirt"
+            },
+            {
+              "type_id": 10,
+              "code":"SWEATSHIRT",
+              "name": "Hoodie/Sweatshirt"
+            },
+            {
+              "type_id": 11,
+              "code":"TOPS",
+              "name": "Tops"
+            },
+            {
+              "type_id": 12,
+              "code":"BOXERS",
+              "name": "Boxers"
+            },
+            {
+              "type_id": 13,
+              "code":"KURTIS",
+              "name": "Kurtis"
+            }
+          ],
+          "meta_data":{
+            "colors":["Black", "White", "Purple", "Gray", "Blue","Red","Orange","Navy","Grey","Yellow","Pink","Green"],
+            "sizes":["S","M","L","XL","XXL"]
+          }
+        },
+        {
+          "id": 3,
+          "name": "Kids",
+          "code": "KIDS",
+          "path":"/kids",
+          "description":"Kids Clothing",
+          "types": [
+            {
+              "id": 15,
+              "name": "T-shirts",
+              "description": "Kids' t-shirts"
+            },
+            {
+              "id": 16,
+              "name": "Shorts",
+              "description": "Kids' shorts"
+            },
+            {
+              "id": 17,
+              "name": "Dresses",
+              "description": "Kids' dresses"
+            },
+            {
+              "id": 18,
+              "name": "Jeans",
+              "description": "Kids' jeans"
+            }
+          ],
+          "meta_data":{}
+        }
+     ] 
  }

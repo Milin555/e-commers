@@ -2,6 +2,8 @@ import React from 'react'
 import { Wishlist } from '../common/Wishlist'
 import { CartIcon } from '../common/Carticons'
 import { AccountIcon } from '../common/Accounticons'
+import { Link, NavLink } from 'react-router-dom'
+import './Navigation.css'
 
 export const Navigation = () => {
   return (
@@ -11,16 +13,16 @@ export const Navigation = () => {
        
         <a className="text-3xl text-black font-bold gap-8" href="/">
           ShopEase
-        </a>
+      </a>
       </div>
 
       <div className="flex flex-wrap items-center gap-10 flex-1">
        
         <ul className="flex gap-14 text-gray-600">
-          <li className='hover:text-black'><a href="/shop">Shop</a></li>
-          <li className='hover:text-black'><a href="/mens">Men</a></li>
-          <li className='hover:text-black'><a href="/womens">Women</a></li>
-          <li className='hover:text-black'><a href="/kids">Kids</a></li>
+          <li className='hover:text-black' ><NavLink to="/" className={({isActive})=> isActive ? 'active-link':''}>Shop</NavLink></li>
+          <li className='hover:text-black'><NavLink to="/men"  className={({isActive})=> isActive ? 'active-link':''}>Men</NavLink></li>
+          <li className='hover:text-black'><NavLink to="/women" className={({isActive})=> isActive ? 'active-link':''}>Women</NavLink></li>
+      <li className='hover:text-black'><NavLink to="/kids" className={({isActive})=> isActive ? 'active-link':''}>Kids</NavLink></li>
         </ul>
       </div>
 
@@ -39,7 +41,7 @@ export const Navigation = () => {
         <ul className='flex items-center gap-4'>
               <li><button ><Wishlist /></button></li>
               <li><button ><AccountIcon /></button></li>
-              <li><button ><CartIcon /></button></li>
+              <li><NavLink to='/cart-items'><CartIcon /></NavLink></li>
         </ul>
 
       </div>

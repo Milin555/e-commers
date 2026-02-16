@@ -11,7 +11,6 @@
   export const Shope = () => {
     return (
       <>
-      <Navigation />
       <HeroSection />
       <NewArrivals />
       {content?.categories && content?.categories?.map((items,index)=><Category key={items?.title+index}{...items}/>)}
