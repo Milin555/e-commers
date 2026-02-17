@@ -13,7 +13,7 @@
       <>
       <HeroSection />
       <NewArrivals />
-      {content?.categories && content?.categories?.map((items,index)=><Category key={items?.title+index}{...items}/>)}
+      {content?.pages && content?.pages?.map((items,index)=><Category key={items?.title+index}{...items}/>)}
       <Footer content={content?.footer} />
       </>
     )
