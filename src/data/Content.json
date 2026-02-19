@@ -243,7 +243,10 @@
               "description": "Kids' jeans"
             }
           ],
-          "meta_data":{}
+           "meta_data":{
+            "colors":["Black", "White", "Yellow", "Blue", "Pink", "Gray", "Navy", "Red", "Orange", "Green"],
+            "sizes":["S","M","L","XL"]
+          }
         }
      ] ,
       "products":[
@@ -606,6 +609,141 @@
         "images": ["https://images.unsplash.com/photo-1521572008054-d62e03d445ee?auto=format&fit=crop&w=600&q=80", "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=600&q=80"],
         "thumbnail": "https://images.unsplash.com/photo-1585104124561-9a2e5138134b?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "rating": 4.3
+      },
+      {
+        "id": 25,
+        "title": "Kids Yellow Hoodie",
+        "description": "Bright yellow hoodie for kids",
+        "category_id": 3,
+        "type_id": 14,
+        "brand": "Gap Kids",
+        "price": 29.99,
+        "size": ["S", "M", "L"],
+        "color": ["Yellow"],
+        "discount": 0,
+        "images": ["https://images.unsplash.com/photo-1519238263496-63e827bdcc3f?auto=format&fit=crop&w=600&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?auto=format&fit=crop&w=600&q=80"],
+        "thumbnail": "https://images.unsplash.com/photo-1531187275888-4b0069032a67?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.8
+      },
+      {
+        "id": 26,
+        "title": "Kids Blue Jacket",
+        "description": "Classic blue jacket for cool kids",
+        "category_id": 3,
+        "type_id": 2,
+        "brand": "Levis Kids",
+        "price": 45.99,
+        "size": ["S", "M", "L"],
+        "color": ["Blue"],
+        "discount": 10,
+        "images": ["https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?auto=format&fit=crop&w=600&q=80", "https://images.unsplash.com/photo-1519238263496-63e827bdcc3f?auto=format&fit=crop&w=600&q=80"],
+        "thumbnail": "https://images.unsplash.com/photo-1764883318039-22273d13c9df?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.7
+      },
+      {
+        "id": 27,
+        "title": "Kids White T-Shirt",
+        "description": "Soft cotton white t-shirt",
+        "category_id": 3,
+        "type_id": 15,
+        "brand": "Uniqlo",
+        "price": 14.99,
+        "size": ["S", "M", "L"],
+        "color": ["White"],
+        "discount": 0,
+        "images": ["https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=600&q=80", "https://images.unsplash.com/photo-1519238263496-63e827bdcc3f?auto=format&fit=crop&w=600&q=80"],
+        "thumbnail": "https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=600&q=80",
+        "rating": 4.5
+      },
+      {
+        "id": 28,
+        "title": "Kids Pink Dress",
+        "description": "Lovely pink dress for special occasions",
+        "category_id": 3,
+        "type_id": 17,
+        "brand": "H&M",
+        "price": 34.99,
+        "size": ["S", "M", "L"],
+        "color": ["Pink"],
+        "discount": 15,
+        "images": ["https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=600&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?auto=format&fit=crop&w=600&q=80"],
+        "thumbnail": "https://plus.unsplash.com/premium_photo-1681998587992-a44bb8ceaf59?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.9
+      },
+      {
+        "id": 29,
+        "title": "Kids Striped Shirt",
+        "description": "Casual striped shirt for boys",
+        "category_id": 3,
+        "type_id": 15,
+        "brand": "Ralph Lauren",
+        "price": 24.99,
+        "size": ["S", "M", "L"],
+        "color": ["Blue"],
+        "discount": 5,
+        "images": ["https://images.unsplash.com/photo-1503919545889-aef6d7a12ad0?auto=format&fit=crop&w=600&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?auto=format&fit=crop&w=600&q=80"],
+        "thumbnail": "https://images.unsplash.com/photo-1769673311529-a4c3a9ede7f1?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.4
+      },
+      {
+        "id": 30,
+        "title": "Kids Denim Overalls",
+        "description": "Cute and durable denim overalls",
+        "category_id": 3,
+        "type_id": 18,
+        "brand": "OshKosh",
+        "price": 39.99,
+        "size": ["S", "M", "L"],
+        "color": ["Blue"],
+        "discount": 10,
+        "images": ["https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=600&q=80", "https://images.unsplash.com/photo-1519238263496-63e827bdcc3f?auto=format&fit=crop&w=600&q=80"],
+        "thumbnail": "https://plus.unsplash.com/premium_photo-1726804898033-8413e8645b4c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.6
+      },
+      {
+        "id": 31,
+        "title": "Kids Graphic T-Shrit",
+        "description": "Fun graphic tee for playtime",
+        "category_id": 3,
+        "type_id": 15,
+        "brand": "Old Navy",
+        "price": 12.99,
+        "size": ["S", "M", "L"],
+        "color": ["Gray"],
+        "discount": 0,
+        "images": ["https://images.unsplash.com/photo-1503919545889-aef6d7a12ad0?auto=format&fit=crop&w=600&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?auto=format&fit=crop&w=600&q=80"],
+        "thumbnail": "https://images.unsplash.com/photo-1610872817559-def3cc05cd6b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.3
+      },
+      {
+        "id": 32,
+        "title": "Kids Gray Shorts",
+        "description": "Comfortable gray shorts",
+        "category_id": 3,
+        "type_id": 16,
+        "brand": "Puma",
+        "price": 19.99,
+        "size": ["S", "M", "L"],
+        "color": ["Gray"],
+        "discount": 5,
+        "images": ["https://images.unsplash.com/photo-1519238263496-63e827bdcc3f?auto=format&fit=crop&w=600&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?auto=format&fit=crop&w=600&q=80"],
+        "thumbnail": "https://plus.unsplash.com/premium_photo-1770404628189-b583a5b2a0d4?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.5
+      },
+      {
+        "id": 33,
+        "title": "Kids blue T-Shirt",
+        "description": "Comfortable blue T-Shirt",
+        "category_id": 3,
+        "type_id": 17,
+        "brand": "Nike",
+        "price": 17.99,
+        "size": ["S", "M", "L"],
+        "color": ["Blue"],
+        "discount": 10,
+        "images": ["https://images.unsplash.com/photo-1519238263496-63e827bdcc3f?auto=format&fit=crop&w=600&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?auto=format&fit=crop&w=600&q=80"],
+        "thumbnail": "https://images.unsplash.com/photo-1766974888282-7596605aca22?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.5   
       }
 
     ]

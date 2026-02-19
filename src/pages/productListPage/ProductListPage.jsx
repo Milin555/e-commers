@@ -28,7 +28,7 @@ export const ProductListPage = ({categoryType}) => {
   return ( 
     <div>
       <div className='flex'>
-        <div className='w-[20%] p-[20px] border rounded-lg m-[20px]'>
+        <div className='w-[20%] p-[10px] border rounded-lg m-[20px]'>
             <div className='flex justify-between '>
             <p className='text-[16px] text-gray-600'>Filter</p>
             <FilterIcon />
@@ -36,10 +36,16 @@ export const ProductListPage = ({categoryType}) => {
             <div>
          <p className='text-[16px] text-black mt-5'>Categoreis</p>
          <Categories types={categoryContent?.types}/>
+
          <hr></hr>
+         </div>
+         <div>
          <PriceFilter />
+         
          <ColorsFilter colors={categoryContent?.meta_data?.colors}/>
+         <hr></hr>
          <SizeFilter sizes={categoryContent?.meta_data?.sizes}/>
+        
 
          
          
@@ -48,7 +54,7 @@ export const ProductListPage = ({categoryType}) => {
       </div>
          
      
-     <div className='p-[15px] w-fit'>
+     <div className='p-[15px] w-[80%]'>
           <div className="flex justify-between items-center mb-4 px-4 w-full">
             <h2 className='text-2xl font-semibold text-gray-600 tracking-tight'>
               {categoryContent?.description}
@@ -58,7 +64,7 @@ export const ProductListPage = ({categoryType}) => {
                <span className="text-gray-500 font-medium text-md cursor-pointer hover:text-gray-800">Recommended</span>
             </div>
           </div>
-          <div className="flex flex-wrap justify-start gap-6">
+          <div className='pt-4 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-8 px-2'>
              {ProductList?.map((product)=> <ProductcardPage key={product.id} {...product}/>)}
           </div>
      </div>
