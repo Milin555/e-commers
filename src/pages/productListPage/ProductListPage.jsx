@@ -35,21 +35,26 @@ export const ProductListPage = ({categoryType}) => {
               </div>
             <div>
          <p className='text-[16px] text-black mt-5'>Categoreis</p>
-         <Categories types={categoryContent?.types}/>
-
-         <hr></hr>
+         <Categories   types={categoryContent?.types}/>
+         <div className=' mt-4'>
+         <hr />
          </div>
-         <div>
+
+         </div>
+        
          <PriceFilter />
-         
+         <div 
+         className=' mt-4'>
+         <hr />
+         </div>
          <ColorsFilter colors={categoryContent?.meta_data?.colors}/>
-         <hr></hr>
+         <hr />
          <SizeFilter sizes={categoryContent?.meta_data?.sizes}/>
         
 
          
          
-            </div>
+          
 
       </div>
          

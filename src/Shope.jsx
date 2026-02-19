@@ -14,7 +14,7 @@
       <HeroSection />
       <NewArrivals />
       {content?.pages && content?.pages?.map((items,index)=><Category key={items?.title+index}{...items}/>)}
-      <Footer content={content?.footer} />
+      {/* <Footer content={content?.footer} /> */}
       </>
     )
   }
