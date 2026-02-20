@@ -4,7 +4,7 @@
   import  NewArrivals  from './components/Sections/NewArrivals'
   import { Category } from './components/Sections/Categories/Category'
   import content from './data/Content.json'
-  import Footer from './footer/Footer'
+  // import Footer from './footer/Footer'
 
 
  
@@ -19,3 +19,4 @@
     )
   }
 
+//                    

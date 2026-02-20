@@ -10,7 +10,7 @@ function ShopApplicationwrapper() {
     <div>
         <Navigation />
         <Outlet />
-        <div className='mt-12'>
+        <div className='mt-24'>
            <Footer content={content?.footer}/>
         </div>
     </div>
