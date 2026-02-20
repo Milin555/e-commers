@@ -21,8 +21,9 @@ export const ProductListPage = ({ categoryType }) => {
 
   return (
     <div>
-      <div className='flex'>
-        <div className='w-[20%] p-[10px] border rounded-lg m-[20px]'>
+      <div className='flex flex-col md:flex-row'>
+        {/* Sidebar filter — hidden on mobile, shown on md+ */}
+        <div className='hidden md:block w-full md:w-[20%] p-[10px] border rounded-lg m-[20px]'>
             <div className='flex justify-between'>
               <p className='text-[16px] text-gray-600'>Filter</p>
               <FilterIcon />
@@ -44,17 +45,17 @@ export const ProductListPage = ({ categoryType }) => {
             <SizeFilter sizes={categoryContent?.meta_data?.sizes} />
         </div>
 
-        <div className='p-[15px] w-[80%]'>
-          <div className="flex justify-between items-center mb-4 px-4 w-full">
-            <h2 className='text-2xl font-semibold text-gray-600 tracking-tight'>
+        <div className='p-[10px] md:p-[15px] w-full md:w-[80%]'>
+          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4 px-2 md:px-4 w-full gap-2">
+            <h2 className='text-lg md:text-2xl font-semibold text-gray-600 tracking-tight'>
               {categoryContent?.description}
             </h2>
             <div className="flex items-center gap-4">
-               <span className="text-purple-600 font-bold text-md cursor-pointer">New</span>
-               <span className="text-gray-500 font-medium text-md cursor-pointer hover:text-gray-800">Recommended</span>
+               <span className="text-purple-600 font-bold text-sm md:text-md cursor-pointer">New</span>
+               <span className="text-gray-500 font-medium text-sm md:text-md cursor-pointer hover:text-gray-800">Recommended</span>
             </div>
           </div> 
-          <div className='pt-4 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 px-4'>
+          <div className='pt-2 md:pt-4 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3 md:gap-6 px-2 md:px-4'>
              {ProductList?.map((product) => <ProductcardPage key={product.id} {...product} />)}
           </div>
         </div>
