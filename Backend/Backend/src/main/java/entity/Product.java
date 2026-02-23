@@ -7,6 +7,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.Date;
+import java.util.List;
 import java.util.UUID;
 
 @Entity
@@ -44,6 +45,9 @@ public class Product {
     @Temporal(TemporalType.TIMESTAMP)
     private Date updatedAt;
 
+    @OneToMany(mappedBy = "product", cascade = CascadeType.ALL)
+    private List<ProductVariant> productVariantLists;
+
     @PrePersist
     protected void onCreate() {
         createdAt = new java.util.Date();
@@ -54,6 +58,14 @@ public class Product {
     protected void onUpdate() {
         updatedAt = new java.util.Date();
     }
+
+    @ManyToOne
+    @JoinColumn(name = "category_id",nullable = false)
+    private Category category;
+
+    @ManyToOne
+    @JoinColumn(name = "categoryType_id",nullable = false)
+    private CategoryType categoryType;
 
 
 }
