@@ -1,0 +1,750 @@
+
+{
+    "pages":[
+   
+                {
+                    "title":"Categories For Women",
+                    "data":[
+                        {
+                            "title":"Hoodies & Sweetshirt",
+                            "description":"Explore Now!",
+                            "image":"./images/category-women-hoodies.jpg"   
+                        },
+                        {
+                            "title":"Coats & Parkas",
+                            "description":"Explore Now!",
+                            "image":"./images/category-women-coats.jpg"   
+                        },
+                        {
+                            "title":"Tees & T-Shirt",
+                            "description":"Explore Now!",
+                            "image":"./images/category-women-tshirts.png"   
+                        },
+                        {
+                            "title":"Shorts",
+                            "description":"Explore Now!",
+                            "image":"./images/category-women-shorts.jpg"   
+                        }
+                    ]
+                },
+                {
+                    "title":"Categories For Men",
+                    "data":[
+                        {
+                            "title":"Shirts",
+                            "description":"Explore Now!",
+                            "image":"./images/category-men-shirts.jpg"   
+                        },
+                        {
+                            "title":"Jeans",
+                            "description":"Explore Now!",
+                            "image":"./images/category-men-jeans.jpg"   
+                        },
+                        {
+                            "title":"Hoodies & Sweetshirt",
+                            "description":"Explore Now!",
+                            "image":"./images/category-men-hoodies.png"   
+                        },
+                        {
+                            "title":"T-Shirts",
+                            "description":"Explore Now!",
+                            "image":"./images/category-men-tshirts.png"   
+                        }
+                    ]
+                }
+            ],
+            "footer":{
+        "items":[
+            {
+                "title":"Need Help",
+                "list":[
+                    {
+                        "label":"Contact Us",
+                        "path":"/contact-us"
+                    },
+                    {
+                        "label":"Track Order",
+                        "path":"/track-order"
+                    },
+                    {
+                        "label":"Returns & Refunds",
+                        "path":"/refunds"
+                    },
+                    {
+                        "label":"FAQ's",
+                        "path":"/faq"
+                    },
+                    {
+                        "label":"Career",
+                        "path":"/career"
+                    }
+                ]
+            },
+            {
+                "title":"Company",
+                "list":[
+                    {
+                        "label":"About Us",
+                        "path":"/about"
+                    },
+                    {
+                        "label":"Media",
+                        "path":"/media"
+                    }
+                ]
+            },
+            {
+                "title":"More Info",
+                "list":[
+                    {
+                        "label":"Term and Conditions",
+                        "path":"/terms-conditions"
+                    },
+                    {
+                        "label":"Privacy Policy",
+                        "path":"/policies"
+                    },
+                    {
+                        "label":"Shipping Policy",
+                        "path":"/policies"
+                    }
+                ]
+            },
+            {
+                "title":"Location",
+                "description":"India"
+                              
+            }
+        ],
+        "copyright":"Copyright © 2026 ShopEase"
+    },
+     "categories": [
+        {
+          "id": 1,
+          "name": "Men",
+          "code": "MEN",
+          "path":"/men",
+          "description":"Men Clothing",
+          "types": [
+            {
+              "id": 1,
+              "name": "Jeans",
+              "description": "Men's jeans"
+            },
+            {
+              "id": 2,
+              "name": "Shirts",
+              "description": "Men's shirts"
+            },
+            {
+              "id": 3,
+              "name": "Shorts",
+              "description": "Men's shorts"
+            },
+            {
+              "id": 4,
+              "name": "T-shirts",
+              "description": "Men's t-shirts"
+            },
+            {
+              "id": 14,
+              "name": "Hoodie's",
+              "description": "Men's Hoodie"
+            }
+          ],
+          "meta_data":{
+            "colors":["Black", "White", "Purple", "Gray", "Blue","Red","Orange","Navy","Grey","Yellow","Pink","Green"],
+            "sizes":["S","M","L","XL","XXL"]
+          }
+        },
+        {
+          "id": 2,
+          "name": "Women",
+          "code": "WOMEN",
+          "path":"/women",
+          "description":"Women Clothing",
+          "types": [
+            {
+              "type_id": 5,
+              "code":"DRESSES",
+              "name": "Dresses"
+            },
+            {
+              "type_id": 6,
+              "code":"CROPTOP",
+              "name": "Crop Top"
+            },
+            {
+              "type_id": 7,
+              "code":"SHORTS",
+              "name": "Shorts"
+            },
+            {
+              "type_id": 8,
+              "code":"JEANS",
+              "name": "Jeans"
+            },
+            {
+              "type_id": 9,
+              "code":"TSHIRTS",
+              "name": "T-shirt"
+            },
+            {
+              "type_id": 10,
+              "code":"SWEATSHIRT",
+              "name": "Hoodie/Sweatshirt"
+            },
+            {
+              "type_id": 11,
+              "code":"TOPS",
+              "name": "Tops"
+            },
+            {
+              "type_id": 12,
+              "code":"BOXERS",
+              "name": "Boxers"
+            },
+            {
+              "type_id": 13,
+              "code":"KURTIS",
+              "name": "Kurtis"
+            }
+          ],
+          "meta_data":{
+            "colors":["Black", "White", "Purple", "Gray", "Blue","Red","Orange","Navy","Grey","Yellow","Pink","Green"],
+            "sizes":["S","M","L","XL","XXL"]
+          }
+        },
+        {
+          "id": 3,
+          "name": "Kids",
+          "code": "KIDS",
+          "path":"/kids",
+          "description":"Kids Clothing",
+          "types": [
+            {
+              "id": 15,
+              "name": "T-shirts",
+              "description": "Kids' t-shirts"
+            },
+            {
+              "id": 16,
+              "name": "Shorts",
+              "description": "Kids' shorts"
+            },
+            {
+              "id": 17,
+              "name": "Dresses",
+              "description": "Kids' dresses"
+            },
+            {
+              "id": 18,
+              "name": "Jeans",
+              "description": "Kids' jeans"
+            }
+          ],
+           "meta_data":{
+            "colors":["Black", "White", "Yellow", "Blue", "Pink", "Gray", "Navy", "Red", "Orange", "Green"],
+            "sizes":["S","M","L","XL"]
+          }
+        }
+     ] ,
+      "products":[
+      {
+        "id": 1,
+        "title": "Black Sweatshirt",
+        "description": "100% Bio-washed Cotton – makes the fabric extra soft & silky. Flexible ribbed crew neck. Precisely stitched with no pilling & no fading. Provide  all-time comfort. Anytime, anywhere. Infinite range of matte-finish HD prints.",
+        "category_id": 2,
+        "type_id": 10,
+        "brand": "Nike",
+        "price": 49.99,
+        "size": ["S", "M", "L"],
+        "color": ["Black","Blue"],
+        "discount": 20,
+        "thumbnail": "https://images.unsplash.com/photo-1633369435794-3bb30fe829a8?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "images": ["https://images.unsplash.com/photo-1633369435794-3bb30fe829a8?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1633369435794-3bb30fe829a8?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","https://images.unsplash.com/photo-1633369435794-3bb30fe829a8?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+        "rating": 4.5
+      },
+      {
+        "id": 2,
+        "title": "White T-shirt",
+        "description": "A stylish white t-shirt for women",
+        "category_id": 2,
+        "type_id": 9,
+        "brand": "TrendyWear",
+        "price": 29.99,
+        "size": ["S", "M", "L"],
+        "color": ["White"],
+        "discount": 15,
+        "images": ["https://images.unsplash.com/photo-1598554793905-075f7b355cd9?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1598554793905-075f7b355cd9?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+        "thumbnail": "https://images.unsplash.com/photo-1598554793905-075f7b355cd9?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.5
+      },
+      {
+        "id": 3,
+        "title": "Purple Hoodie",
+        "description": "A cozy purple hoodie for women",
+        "category_id": 2,
+        "type_id": 10,
+        "brand": "Nike",
+        "price": 69.99,
+        "size": ["S", "M", "L"],
+        "color": ["Purple"],
+        "discount": 10,
+        "images": ["https://images.unsplash.com/photo-1610227221484-e584b91f178f?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+        "thumbnail": "https://images.unsplash.com/photo-1610227221484-e584b91f178f?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.6
+      },
+      {
+        "id": 4,
+        "title": "Leaves Pattern White Dress",
+        "description": "A beautiful leaves pattern white dress for women",
+        "category_id": 2,
+        "type_id": 5,
+        "brand": "SummerVibes",
+        "price": 79.99,
+        "size": ["S", "M", "L"],
+        "color": ["White"],
+        "discount": 5,
+        "images": ["https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=600&q=80", "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=600&q=80"],
+        "thumbnail": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=600&q=80",
+        "rating": 4.7
+      },
+      {
+        "id": 5,
+        "title": "White Graphic Crop Top",
+        "description": "A trendy white graphic crop top for women",
+        "category_id": 2,
+        "type_id": 9,
+        "brand": "TrendyWear",
+        "price": 39.99,
+        "size": ["S", "M", "L"],
+        "color": ["White"],
+        "discount": 10,
+        "images": ["https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80", "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80"],
+        "thumbnail": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+        "rating": 4.3
+      },
+      {
+        "id": 6,
+        "title": "Black Shorts",
+        "description": "Stylish black shorts for women",
+        "category_id": 2,
+        "type_id": 7,
+        "brand": "Nike",
+        "price": 34.99,
+        "size": ["S", "M", "L"],
+        "color": ["Black"],
+        "discount": 15,
+        "images": ["https://images.unsplash.com/photo-1604344668133-55049055b632?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+        "thumbnail": "https://images.unsplash.com/photo-1604344668133-55049055b632?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.5
+      },
+      {
+        "id": 7,
+        "title": "Women's Skinny Jeans",
+        "description": "Trendy women's skinny jeans for a stylish look",
+        "category_id": 2,
+        "type_id": 8,
+        "brand": "ChicStyle",
+        "price": 59.99,
+        "size": ["S", "M", "L"],
+        "color": ["Blue"],
+        "discount": 10,
+        "images": ["https://plus.unsplash.com/premium_photo-1689371953420-b6981e43fa38?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+        "thumbnail": "https://plus.unsplash.com/premium_photo-1689371953420-b6981e43fa38?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.8
+      },
+      {
+        "id": 8,
+        "title": "Crewneck Sweatshirt",
+        "description": "Comfortable crewneck sweatshirt for women",
+        "category_id": 2,
+        "type_id": 10,
+        "brand": "TrendyWear",
+        "price": 44.99,
+        "size": ["S", "M", "L"],
+        "color": ["Gray"],
+        "discount": 10,
+        "images": ["https://images.unsplash.com/photo-1533656812321-1868a4d2b72a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+        "thumbnail": "https://images.unsplash.com/photo-1533656812321-1868a4d2b72a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.6
+      },
+      {
+        "id": 9,
+        "title": "Denim Shorts",
+        "description": "Stylish denim shorts for women",
+        "category_id": 2,
+        "type_id": 7,
+        "brand": "SummerVibes",
+        "price": 39.99,
+        "size": ["S", "M", "L"],
+        "color": ["Blue"],
+        "discount": 15,
+        "images": ["https://images.unsplash.com/photo-1620231619471-b28081fc3509?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+        "thumbnail": "https://images.unsplash.com/photo-1620231619471-b28081fc3509?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.7
+      },
+      {
+        "id": 10,
+        "title": "Black Plain T-shirt",
+        "description": "Classic black plain t-shirt for women",
+        "category_id": 2,
+        "type_id": 9,
+        "brand": "Nike",
+        "price": 24.99,
+        "size": ["S", "M", "L"],
+        "color": ["Black"],
+        "discount": 10,
+        "images": ["https://images.unsplash.com/photo-1583744946564-b52ac1c389c8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+        "thumbnail": "https://images.unsplash.com/photo-1583744946564-b52ac1c389c8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.5
+      },
+      {
+        "id": 11,
+        "title": "Blue Flower Print Crop Top",
+        "description": "Stylish blue flower print crop top for women",
+        "category_id": 2,
+        "type_id": 9,
+        "brand": "TrendyWear",
+        "price": 34.99,
+        "size": ["S", "M", "L"],
+        "color": ["Blue"],
+        "discount": 15,
+        "images": ["https://cdn.pixabay.com/photo/2019/09/19/06/04/young-woman-4488313_1280.jpg"],
+        "thumbnail": "https://cdn.pixabay.com/photo/2019/09/19/06/04/young-woman-4488313_1280.jpg",
+        "rating": 4.3
+      },
+      {
+        "id": 12,
+        "title": "Black Crop Top",
+        "description": "Stylish black crop top for women",
+        "category_id": 2,
+        "type_id": 9,
+        "brand": "TrendyWear",
+        "price": 29.99,
+        "size": ["S", "M", "L"],
+        "color": ["Black"],
+        "discount": 10,
+        "images": ["https://images.unsplash.com/photo-1503342394128-c104d54dba01?auto=format&fit=crop&w=600&q=80"],
+        "thumbnail": "https://images.unsplash.com/photo-1503342394128-c104d54dba01?auto=format&fit=crop&w=600&q=80",
+        "rating": 4.2
+      },
+      {
+        "id": 13,
+        "title": "Black T-Shirt",
+        "description": "Classic black t-shirt for men",
+        "category_id": 1,
+        "type_id": 4,
+        "brand": "Nike",
+        "price": 24.99,
+        "size": ["M", "L", "XL"],
+        "color": ["Black"],
+        "discount": 10,
+        "images": ["https://images.unsplash.com/photo-1726140872004-850c80900ae3?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+        "thumbnail": "https://images.unsplash.com/photo-1726140872004-850c80900ae3?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.5
+      },
+      {
+        "id": 14,
+        "title": "White Hoodie",
+        "description": "Comfortable white hoodie for men",
+        "category_id": 1,
+        "type_id": 14,
+        "brand": "Adidas",
+        "price": 59.99,
+        "size": ["M", "L", "XL"],
+        "color": ["White"],
+        "discount": 15,
+        "images": ["https://images.unsplash.com/photo-1656664344251-5abe0e1b5f3f?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+        "thumbnail": "https://images.unsplash.com/photo-1656664344251-5abe0e1b5f3f?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.7
+      },
+      {
+        "id": 15,
+        "title": "Blue Jeans",
+        "description": "Stylish blue jeans for men",
+        "category_id": 1,
+        "type_id": 1,
+        "brand": "Levis",
+        "price": 49.99,
+        "size": ["M", "L", "XL"],
+        "color": ["Blue"],
+        "discount": 20,
+        "images": ["https://plus.unsplash.com/premium_photo-1727942419945-1908baae3c8e?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+        "thumbnail": "https://plus.unsplash.com/premium_photo-1727942419945-1908baae3c8e?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.6
+      },
+      {
+        "id": 16,
+        "title": "Gray Shorts",
+        "description": "Comfortable gray shorts for men",
+        "category_id": 1,
+        "type_id": 3,
+        "brand": "Puma",
+        "price": 29.99,
+        "size": ["M", "L", "XL"],
+        "color": ["Gray"],
+        "discount": 10,
+        "images": ["https://images.unsplash.com/photo-1769072060303-e6601d5e8822?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+        "thumbnail": "https://images.unsplash.com/photo-1769072060303-e6601d5e8822?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.4
+      },
+      {
+        "id": 17,
+        "title": "Black Hoodie",
+        "description": "Comfortable black hoodie for men",
+        "category_id": 1,
+        "type_id": 14,
+        "brand": "Adidas",
+        "price": 59.99,
+        "size": ["M", "L", "XL"],
+        "color": ["Black"],
+        "discount": 15,
+        "images": ["https://images.unsplash.com/photo-1656337789708-cdf37b07112d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+        "thumbnail": "https://images.unsplash.com/photo-1656337789708-cdf37b07112d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.8
+      },
+      {
+        "id": 18,
+        "title": "Classic White T-Shirt",
+        "description": "Premium cotton white t-shirt for everyday wear",
+        "category_id": 1,
+        "type_id": 4,
+        "brand": "Uniqlo",
+        "price": 19.99,
+        "size": ["S", "M", "L", "XL"],
+        "color": ["White"],
+        "discount": 0,
+        "images": ["https://plus.unsplash.com/premium_photo-1723867247863-f5a80b28eca1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+        "thumbnail": "https://plus.unsplash.com/premium_photo-1723867247863-f5a80b28eca1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.6
+      },
+      {
+        "id": 19,
+        "title": "Slim Fit Chinos",
+        "description": "Versatile beige chinos for a smart-casual look",
+        "category_id": 1,
+        "type_id": 1,
+        "brand": "Gap",
+        "price": 39.99,
+        "size": ["30", "32", "34", "36"],
+        "color": ["Beige"],
+        "discount": 10,
+        "images": ["https://images.unsplash.com/photo-1768696081520-76c372aa0d00?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+        "thumbnail": "https://images.unsplash.com/photo-1768696081520-76c372aa0d00?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.4
+      },
+      {
+        "id": 20,
+        "title": "Denim Jacket",
+        "description": "Classic blue denim jacket for men",
+        "category_id": 1,
+        "type_id": 2,
+        "brand": "Levis",
+        "price": 89.99,
+        "size": ["M", "L", "XL"],
+        "color": ["Blue"],
+        "discount": 5,
+        "images": ["https://images.unsplash.com/photo-1556136412-5efb47db6fc7?q=80&w=705&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+        "thumbnail": "https://images.unsplash.com/photo-1556136412-5efb47db6fc7?q=80&w=705&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.7
+      },
+      {
+        "id": 21,
+        "title": "Navy Polo Shirt",
+        "description": "Breathable cotton pique polo shirt in navy",
+        "category_id": 1,
+        "type_id": 2,
+        "brand": "Ralph Lauren",
+        "price": 49.99,
+        "size": ["M", "L", "XL"],
+        "color": ["Navy"],
+        "discount": 15,
+        "images": ["https://images.unsplash.com/photo-1631034527597-2d46ad65e09c?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+        "thumbnail": "https://images.unsplash.com/photo-1631034527597-2d46ad65e09c?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.5
+      },
+      {
+        "id": 22,
+        "title": "Gray Crewneck Sweatshirt",
+        "description": "Soft fleece crewneck sweatshirt in heather gray",
+        "category_id": 1,
+        "type_id": 14,
+        "brand": "Champion",
+        "price": 34.99,
+        "size": ["S", "M", "L", "XL"],
+        "color": ["Gray"],
+        "discount": 0,
+        "images": ["https://plus.unsplash.com/premium_photo-1705495968095-33a1584502da?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+        "thumbnail": "https://plus.unsplash.com/premium_photo-1705495968095-33a1584502da?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.5
+      },
+      {
+        "id": 23,
+        "title": "Black Slim Jeans",
+        "description": "Modern black slim fit jeans",
+        "category_id": 1,
+        "type_id": 1,
+        "brand": "Calvin Klein",
+        "price": 59.99,
+        "size": ["30", "32", "34", "36"],
+        "color": ["Black"],
+        "discount": 20,
+        "images": ["https://images.unsplash.com/photo-1659477482187-3269a8b3f160?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+        "thumbnail": "https://images.unsplash.com/photo-1659477482187-3269a8b3f160?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.6
+      },
+      {
+        "id": 24,
+        "title": "Navy T-Shirt",
+        "description": "Essential navy t-shirt for men",
+        "category_id": 1,
+        "type_id": 4,
+        "brand": "Tommy Hilfiger",
+        "price": 24.99,
+        "size": ["M", "L", "XL"],
+        "color": ["Navy"],
+        "discount": 10,
+        "images": ["https://images.unsplash.com/photo-1585104124561-9a2e5138134b?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+        "thumbnail": "https://images.unsplash.com/photo-1585104124561-9a2e5138134b?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.3
+      },
+      {
+        "id": 25,
+        "title": "Kids Yellow Hoodie",
+        "description": "Bright yellow hoodie for kids",
+        "category_id": 3,
+        "type_id": 14,
+        "brand": "Gap Kids",
+        "price": 29.99,
+        "size": ["S", "M", "L"],
+        "color": ["Yellow"],
+        "discount": 0,
+        "images": ["https://images.unsplash.com/photo-1519238263496-63e827bdcc3f?auto=format&fit=crop&w=600&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?auto=format&fit=crop&w=600&q=80"],
+        "thumbnail": "https://images.unsplash.com/photo-1531187275888-4b0069032a67?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.8
+      },
+      {
+        "id": 26,
+        "title": "Kids Blue Jacket",
+        "description": "Classic blue jacket for cool kids",
+        "category_id": 3,
+        "type_id": 2,
+        "brand": "Levis Kids",
+        "price": 45.99,
+        "size": ["S", "M", "L"],
+        "color": ["Blue"],
+        "discount": 10,
+        "images": ["https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?auto=format&fit=crop&w=600&q=80", "https://images.unsplash.com/photo-1519238263496-63e827bdcc3f?auto=format&fit=crop&w=600&q=80"],
+        "thumbnail": "https://images.unsplash.com/photo-1764883318039-22273d13c9df?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.7
+      },
+      {
+        "id": 27,
+        "title": "Kids White T-Shirt",
+        "description": "Soft cotton white t-shirt",
+        "category_id": 3,
+        "type_id": 15,
+        "brand": "Uniqlo",
+        "price": 14.99,
+        "size": ["S", "M", "L"],
+        "color": ["White"],
+        "discount": 0,
+        "images": ["https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=600&q=80", "https://images.unsplash.com/photo-1519238263496-63e827bdcc3f?auto=format&fit=crop&w=600&q=80"],
+        "thumbnail": "https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=600&q=80",
+        "rating": 4.5
+      },
+      {
+        "id": 28,
+        "title": "Kids Pink Dress",
+        "description": "Lovely pink dress for special occasions",
+        "category_id": 3,
+        "type_id": 17,
+        "brand": "H&M",
+        "price": 34.99,
+        "size": ["S", "M", "L"],
+        "color": ["Pink"],
+        "discount": 15,
+        "images": ["https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=600&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?auto=format&fit=crop&w=600&q=80"],
+        "thumbnail": "https://plus.unsplash.com/premium_photo-1681998587992-a44bb8ceaf59?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.9
+      },
+      {
+        "id": 29,
+        "title": "Kids Striped Shirt",
+        "description": "Casual striped shirt for boys",
+        "category_id": 3,
+        "type_id": 15,
+        "brand": "Ralph Lauren",
+        "price": 24.99,
+        "size": ["S", "M", "L"],
+        "color": ["Blue"],
+        "discount": 5,
+        "images": ["https://images.unsplash.com/photo-1503919545889-aef6d7a12ad0?auto=format&fit=crop&w=600&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?auto=format&fit=crop&w=600&q=80"],
+        "thumbnail": "https://images.unsplash.com/photo-1769673311529-a4c3a9ede7f1?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.4
+      },
+      {
+        "id": 30,
+        "title": "Kids Denim Overalls",
+        "description": "Cute and durable denim overalls",
+        "category_id": 3,
+        "type_id": 18,
+        "brand": "OshKosh",
+        "price": 39.99,
+        "size": ["S", "M", "L"],
+        "color": ["Blue"],
+        "discount": 10,
+        "images": ["https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=600&q=80", "https://images.unsplash.com/photo-1519238263496-63e827bdcc3f?auto=format&fit=crop&w=600&q=80"],
+        "thumbnail": "https://plus.unsplash.com/premium_photo-1726804898033-8413e8645b4c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.6
+      },
+      {
+        "id": 31,
+        "title": "Kids Graphic T-Shrit",
+        "description": "Fun graphic tee for playtime",
+        "category_id": 3,
+        "type_id": 15,
+        "brand": "Old Navy",
+        "price": 12.99,
+        "size": ["S", "M", "L"],
+        "color": ["Gray"],
+        "discount": 0,
+        "images": ["https://images.unsplash.com/photo-1503919545889-aef6d7a12ad0?auto=format&fit=crop&w=600&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?auto=format&fit=crop&w=600&q=80"],
+        "thumbnail": "https://images.unsplash.com/photo-1610872817559-def3cc05cd6b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.3
+      },
+      {
+        "id": 32,
+        "title": "Kids Gray Shorts",
+        "description": "Comfortable gray shorts",
+        "category_id": 3,
+        "type_id": 16,
+        "brand": "Puma",
+        "price": 19.99,
+        "size": ["S", "M", "L"],
+        "color": ["Gray"],
+        "discount": 5,
+        "images": ["https://images.unsplash.com/photo-1519238263496-63e827bdcc3f?auto=format&fit=crop&w=600&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?auto=format&fit=crop&w=600&q=80"],
+        "thumbnail": "https://plus.unsplash.com/premium_photo-1770404628189-b583a5b2a0d4?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.5
+      },
+      {
+        "id": 33,
+        "title": "Kids blue T-Shirt",
+        "description": "Comfortable blue T-Shirt",
+        "category_id": 3,
+        "type_id": 17,
+        "brand": "Nike",
+        "price": 17.99,
+        "size": ["S", "M", "L"],
+        "color": ["Blue"],
+        "discount": 10,
+        "images": ["https://images.unsplash.com/photo-1519238263496-63e827bdcc3f?auto=format&fit=crop&w=600&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?auto=format&fit=crop&w=600&q=80"],
+        "thumbnail": "https://images.unsplash.com/photo-1766974888282-7596605aca22?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "rating": 4.5   
+      }
+
+    ]
+ }
