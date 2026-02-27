@@ -1,0 +1,40 @@
+package com.backend.e_com.Entity;
+
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import jakarta.persistence.*;
+import lombok.*;
+
+import java.util.UUID;
+
+@Entity
+@Table(name= "products_variant")
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
+public class ProductVariant {
+
+    @Id
+    @GeneratedValue
+    private UUID id;
+
+    @Column(nullable = false)
+    private String color;
+
+    @Column(nullable = false)
+    private String size;
+
+    @Column(nullable = false)
+    private String stockQuantity;
+
+    @ManyToOne
+    @JsonIgnore
+    @JoinColumn(name = "product_id",nullable = false)
+
+    private Product product;
+
+
+}
