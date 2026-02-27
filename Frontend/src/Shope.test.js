@@ -1,5 +1,6 @@
+/* global test, expect */
 import { render, screen } from '@testing-library/react';
-import Shope from './Shope';
+import { Shope } from './Shope';
 
 test('renders learn react link', () => {
   render(<Shope />);

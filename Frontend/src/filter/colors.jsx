@@ -1,6 +1,6 @@
 import React, { useCallback, useState } from 'react';
 
-export const colorSelector = {
+const colorSelector = {
     "Purple":"#8434E1",
     "Black":"#252525",
     "White":"#FFFFFF",
@@ -16,18 +16,20 @@ export const colorSelector = {
 
 }
 
-const ColorsFilter = ({colors}) => {
+const ColorsFilter = ({colors, onChange}) => {
 
   const [appliedColors,setAppliedColors] = useState([]);
   const onClickDiv = useCallback((item)=>{
+    let newColors;
     if(appliedColors.indexOf(item) > -1){
-      
-      setAppliedColors(appliedColors?.filter(color => color !== item));
+      newColors = appliedColors?.filter(color => color !== item);
     }
     else{
-      setAppliedColors([...appliedColors,item]);
+      newColors = [...appliedColors,item];
     }
-  },[appliedColors,setAppliedColors]);
+    setAppliedColors(newColors);
+    onChange && onChange(newColors);
+  },[appliedColors, onChange]);
 
   return (
     <div className='flex flex-col mb-4'>
