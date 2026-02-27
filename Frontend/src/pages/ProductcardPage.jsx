@@ -2,7 +2,7 @@ import React from 'react'
 import SvgFavourite from '../components/common/SvgFavourite'
 import { Link } from 'react-router-dom'
 
-export const ProductcardPage = ({ id, title, price, discount, rating, brand, thumbnail }) => {
+export const ProductcardPage = ({ id, title, price, discount, brand, thumbnail }) => {
   const salePrice = discount
     ? (price - (price * discount) / 100).toFixed(2)
     : null;

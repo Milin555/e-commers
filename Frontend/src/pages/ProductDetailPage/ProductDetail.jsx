@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import { useLoaderData, Link } from 'react-router-dom'
-import content from '../../data/Content.json'
 import { COLOR_MAP } from './ColorMap'
 import { Stars } from './Stars'
 import { ProductDescription } from './ProductDescription'
 import { SimilarProducts } from './SimilarProducts'
 
 export const ProductDetail = () => {
-  const { product } = useLoaderData();
+  const { product, products, categories } = useLoaderData();
 
   const thumbs = product?.thumbnail
     ? [product.thumbnail, product.thumbnail, product.thumbnail]
@@ -22,6 +21,7 @@ export const ProductDetail = () => {
     setSelectedSize(null);
     setSelectedColor(null);
     window.scrollTo(0, 0);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [product?.id]);
 
   if (!product) {
@@ -36,7 +36,7 @@ export const ProductDetail = () => {
     ? (product.price - (product.price * product.discount) / 100).toFixed(2)
     : null;
 
-  const similar = content?.products
+  const similar = products
     ?.filter(p => p.category_id === product.category_id && p.id !== product.id)
     .slice(0, 4);
 
@@ -78,8 +78,8 @@ export const ProductDetail = () => {
 
           {/* Breadcrumb */}
           {(() => {
-            const category = content?.categories?.find(c => c.id === product.category_id);
-            const typeName = category?.types?.find(t => (t.type_id || t.id) === product.type_id)?.name || '';
+            const category = categories?.find(c => c.id === product.category_id);
+            const typeName = category?.categoryTypes?.find(t => (t.type_id || t.id) === product.type_id)?.name || '';
             return (
               <div className="text-sm text-gray-400 flex gap-2 items-center">
                 <Link to="/" className="hover:text-gray-700 transition-colors">Shop</Link>
